@@ -1,0 +1,311 @@
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Link não visitado */
+a:link {
+    color:blue;
+}
+
+/* Link visitado */
+a:visited {
+    color: orange;
+}
+
+/* Quando passa o mouse por cima */
+a:hover {
+    background-color: darkmagenta;
+}
+
+/* Links ativos */
+a:active {
+    color:blueviolet
+}
+
+/* classes e ID */
+h1 {
+    text-align: center;
+}
+#texto-princ {
+    color:brown;
+}
+
+.texto-sec {
+    color: blue;
+}
+
+#topo {
+    background: orange;
+    text-align: center;
+}
+
+.exemplo1 {
+    color: yellowgreen;
+}
+
+.exemplo2 {
+    color: red;
+}
+
+.bordas {
+    border: 10px solid gray;
+}
+
+.bordas div {
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.bordas-2 {
+    border-color: red yellow;
+    border-width: 15px;
+    border-style: solid dotted dashed outset;
+}
+
+.bordas-2 div {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+.bordas-3 {
+    border-color: blue brown burlywood;
+    border-width: 15px;
+    border-style: solid dotted dashed outset;
+}
+
+.bordas-3 div {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+.fonte-cores {
+
+    /* 
+    px -> tamanho fixo - 16px -> tamanho padrão
+    % -> tamanho relativo
+    em -> tamanho relativo ao container pai
+    */
+    background-color: #7401DF;
+    color: aliceblue;
+    font-size: 28px;
+    font-family: "Arial Black", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "Lucida Sans";
+}
+
+.formatacao {
+    text-decoration:line-through;
+}
+
+.yoshi{
+    background-image: url('imagens/yoshi.jpg');
+    /* repeat-x, repeat-y, no-repeat, repeat */
+    background-repeat: repeat;
+    /* left, center, right - horizontal
+    top, center, bottom - vertical */
+    background-position: center center;
+    /* scrool, fixed */
+    background-attachment: fixed;
+}
+
+/*box model */
+
+/* padding - espaçamento interno */
+/* margin - espaço externo */
+
+/* float */
+.caixa1 {
+    background-color: #7401DF;
+    border: 1px solid red;
+    /* padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    */
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    /* left right */
+    float: right;
+}
+
+.caixa2 {
+    background-color: #7401DF;
+    border: 1px solid red;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.caixa3 {
+    background-color: #7401DF;
+    border: 1px solid red;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.box {
+    background-color: chocolate;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: right;
+}
+.box1 {
+    background-color: chocolate;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+}
+
+.principal {
+    border: 5px solid black; 
+    background-color: green;
+}
+
+.clear {
+    clear: both;
+}
+
+#principal {
+    width: 920px;
+}
+
+.noticias{
+    float: left;
+    background-color: blanchedalmond;
+    width: 280px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 6px;
+}
+
+.imagem-galeria {
+    background-color: coral;
+    width: 265px;
+    padding: 5px;
+    float: left;
+    margin: 10px;
+}
+
+/* Elementos bloco */
+
+/* Block -> <h1>, <p>, <table> 
+ocupa toda a tela e fica abaixo do outro
+*/
+
+.bloco-1 {
+    border: 5px solid #ccc;
+    display: block;
+    width: 500px;
+}
+
+/* Inline -> <a>, <span>, <img> 
+elemento na frente do outro
+*/
+
+.bloco-2 {
+    border: 5px solid green;
+    display: inline;
+    width: 500px;
+    height: 500px;
+}
+
+/* Inline-block -> display: inline-block 
+só quebra a linha quando tem muitos conteúdos */
+
+.bloco-3 {
+    border: 5px solid orange;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+/* static (por padrão), relative, absolute, fixed */
+
+#posicionamento {
+    background-color: mediumslateblue;
+    width: 100%;
+}
+
+.estatico {
+    background-color: lightcoral;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.estatico p{
+    width: 300px;
+}
+
+.relative {
+    /* propriedades de deslocamento 
+    top, right, bottom, left */
+    position: relative;
+    left: 100px;
+}
+/* baseado no body - relativo ao seu container */
+.absolute {
+    position: absolute;
+    border: 2px solid #000;
+    color:#000;
+    top: 3400px;
+    right: 100px;
+}
+
+.fixo {
+    position: fixed;
+    border: 2px solid yellowgreen;
+    background-color: chartreuse;
+    color:#000;
+    top: 0px;
+    right: 0px;
+}
+
+.sobreposicao {
+    position: relative;
+}
+
+.p1 {
+    border: 1px solid blueviolet;
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    /* maior o número, mais a frente o elemento fica */
+    z-index: 2;
+}
+
+.p2 {
+    border: 1px solid blueviolet;
+    background-color: orangered;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 1;
+}
+
+.p3 {
+    border: 1px solid blueviolet;
+    background-color: goldenrod;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 180px;
+    left: 180px;
+    z-index: 0;
+}
