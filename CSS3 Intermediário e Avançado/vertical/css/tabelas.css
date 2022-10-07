@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#sobre { 
+width: 210px;
+float:left;
+padding-top:20px;
+padding-bottom:20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+}
+
+ul a{
+    width: 180px;
+    height: 40px;
+    display: block;
+    color:midnightblue;
+    text-decoration: none;
+    /*joga o texto para fora*/
+    text-indent: 40px;
+    /*joga o texto para o mesmo tamanho da linha*/
+    line-height: 40px;
+    background: #f7b600 url(../menu.png) no-repeat left bottom;
+}
+
+ul a:hover, .selecionado a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#home #navegacao .home a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#sobre #navegacao .sobre a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#servicos #navegacao .servicos a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#noticias #navegacao .noticias a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#contato #navegacao .contato a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+/*tabela*/
+
+.tabela table, .tabela{
+    margin: 0 auto;
+    width: 600px;
+    border-collapse: separate;
+    /*border-collapse: collapse;*/
+}
+
+.tabela h2 {
+    text-align: center;
+    margin: 30px;
+    text-transform:uppercase;
+    letter-spacing: .2em;
+    background: #cecece;
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    text-transform:uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-weight: 90%;
+    letter-spacing: 0.3em;
+}
+
+tr.alterna {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: khaki;
+}
+
+.numero {
+    text-align: right
+}

@@ -1,0 +1,142 @@
+/* Seletor Universal */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul a{
+    width: 18%;
+    height: 40px;
+    display: block;
+    color:midnightblue;
+    text-decoration: none;
+    /*joga o texto para fora*/
+    text-indent: 40px;
+    /*joga o texto para o mesmo tamanho da linha*/
+    line-height: 40px;
+    background: #f7b600 url(menu.png) no-repeat left bottom;
+    max-width: 380px;
+}
+
+ul a:hover, .selecionado a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#home #navegacao .home a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#sobre #navegacao .sobre a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#servicos #navegacao .servicos a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#noticias #navegacao .noticias a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#contato #navegacao .contato a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+
+/*Layout*/
+
+#container {
+    width: 85%;
+    margin: 10px auto;
+    background: #fff;
+    min-width: 720px;
+    background: #F45D01;
+}
+
+.cabecalho {
+    line-height: 300px;
+    background: #225992 url(img/cabecalho.jpg);
+    text-align: center;
+    height: 300px;
+}
+
+.conteudo {
+    width: 82%;
+    float: right; 
+    background: #F45D01;
+}
+
+.conteudo .principal{
+    width: 63%;
+    float: left;
+    background: #F45D01;
+    padding: 10px;
+}
+
+.principal h2 {
+    text-align: center;
+}
+
+.conteudo .secundario{
+    width: 30%;
+    float: right;
+    background: #2D7DD2;
+    padding: 10px;
+}
+
+/*
+
+#navegacao{
+    width: 180px;
+    float:left;
+    padding-top:20px;
+    padding-bottom:20px;
+    background: #d1d1d1;
+*/
+
+footer {
+    background: #97CC04;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    clear: both;
+}
+
+#noticias{
+    background: #f99200;
+}
+
+img.img {
+    width: 90%;
+    padding: 10px;
+}
+
+/*.imagem {
+    overflow: hidden;
+    width: 90%;
+}*/

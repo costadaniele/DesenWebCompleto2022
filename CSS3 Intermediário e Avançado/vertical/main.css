@@ -1,0 +1,197 @@
+/* Seletor Universal */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#sobre { 
+width: 210px;
+float:left;
+padding-top:20px;
+padding-bottom:20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+}
+
+ul a{
+    width: 180px;
+    height: 40px;
+    display: block;
+    color:midnightblue;
+    text-decoration: none;
+    /*joga o texto para fora*/
+    text-indent: 40px;
+    /*joga o texto para o mesmo tamanho da linha*/
+    line-height: 40px;
+    background: #f7b600 url(menu.png) no-repeat left bottom;
+}
+
+ul a:hover, .selecionado a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#home #navegacao .home a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#sobre #navegacao .sobre a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#servicos #navegacao .servicos a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#noticias #navegacao .noticias a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#contato #navegacao .contato a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+/* Seletores de texto */
+
+a {
+    color:#fff;
+    text-decoration: none;
+}
+
+/* Seletores de classe */
+
+.verde {
+    color: green;
+}
+
+p.verde {
+    color: green;
+}
+
+/* Seletor ID */
+
+#cabecalho {
+    border: 2px solid #fff;
+    padding: 10px;
+    background-color: #000;
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* Seletor filho */
+li>a {
+    color:blue;
+}
+
+/* Seletor descendente */
+
+#cabecalho span {
+    color: blue;
+}
+
+/* Seletor de irmão adjacente */
+
+h1+p{
+    color: red;
+}
+
+/*Seletor de irmão geral */
+
+h2~p{
+    color: greenyellow;
+}
+
+/*Herança e especificidade*/
+
+/*seletores iguais o último é aplicado
+excesão - !important*/
+
+/* h2#verde h2.amarelo h2 */
+
+#pagina p{
+    color: red !important;
+}
+
+/*Layout*/
+
+#container {
+    width: 920px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: #fff url(img/coluna.png) repeat-y left top;
+}
+
+.cabecalho {
+    line-height: 100px;
+    background-color: gray;
+    text-align: center;
+    height: 100px;
+}
+
+.conteudo {
+    width: 690px;
+    float: right;
+}
+
+.conteudo .principal{
+    width: 320px;
+    float: left;
+    padding-top: 10px;
+}
+
+.conteudo .secundario{
+    width: 180px;
+    float: right;
+    background: cadetblue;
+    padding: 10px;    
+}
+
+.coluna-direita {
+    background-color: darkgoldenrod;
+    float: right;
+    width: 180px;
+    top: 0;
+}
+
+/*
+
+#navegacao{
+    width: 180px;
+    float:left;
+    padding-top:20px;
+    padding-bottom:20px;
+    background: #d1d1d1;
+*/
+
+footer {
+    background: gray;
+    width: 920px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    clear: both;
+}
+
+#sobre {
+    padding-top: 40px;
+}
