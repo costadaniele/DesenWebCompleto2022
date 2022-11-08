@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #fff url(img/fundo.png) repeat-x top;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.leia-mais {
+    text-decoration: underline;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 0 auto;
+    height: 150px;
+    background: url(/img/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+header .logo {
+    width: 152px;
+    height: 66px;
+    background: url(/img/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul {
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.2em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(img/divisor.png) no-repeat left center;
+}
+
+.menu ul .primeiro a {
+    background: none;
+}
+
+.menu ul a:hover {
+    color: #69001d;
+}
+
+body.destaque .lado-esquerdo a.fotos {
+    background: #de003e;
+    color: #fff;
+    cursor: text;
+}
+
+/*conteudo*/
+
+.conteudo {
+    width: 750px;
+    margin-top: 60px;
+    background: #fefefe;
+}
+
+.conteudo .coluna-2 {
+    width: 90%;
+    padding: 10px;
+   
+}
+
+.conteudo .coluna-2 p {
+    font-size: .8em;
+}
+
+.coluna-2 h3 {
+    padding: 5px;
+    width: 90%;
+    background-color: #294970;
+    font-size: .9em;
+    color: #fff;
+}
+
+.coluna-2 h2 {
+    font-size: .6em;
+    padding: 5px 0 5px 3px;
+    margin: 10px 0 5px 0;
+    background:#b10333;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1em;
+    width: 190px;
+}
+
+.img-conteudo {
+    width: 90%;
+    text-align: center;
+    border: 2px solid #dfdfdf;
+}
+
+.leia-mais {
+    font-size: .8;
+    color: #de003e;
+}
+
+.noticia-2 {
+    margin-top: 60px;
+}
+
+.rodape {
+    background: #294970;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+
+

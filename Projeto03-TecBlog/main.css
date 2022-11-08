@@ -1,0 +1,168 @@
+/*limpar formatações padrão*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/** Layout **/
+
+#topo {
+    background-color: #FFC300 ;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* letras logo */
+
+.area-logo {
+    padding: 10px;
+}
+
+h1 .tec {
+    color: #624A24;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+h1 .blog {
+    color: white;
+    font-weight: bold;
+}
+
+/* Menu topo */
+
+.area-menu {
+    padding: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+}
+
+.area-menu a:link, a:visited {
+    color: #624A24;
+    padding: 10px 15px;
+}
+
+
+a:hover {
+    color: #FFC300;
+    background-color: #fff;
+}
+
+a:active {
+    color: #624A24;
+}
+
+/*Conteudo postagem */
+
+#conteudo {
+    /* top right bottom left 
+    margin: 20px 150px 50px 150px; */
+    background-color: #f8f9fa;
+    width: 920px;
+    /* 0 - top bottom
+    auto - left right */
+    margin: 0 auto;
+}
+
+.postagens {
+    float: left;
+    width: 660px;  
+    background-color: #f8f9fa;
+}
+
+.postagem {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+img {
+    width: 95%;
+}
+
+.postagem h2 {
+    color: #ffc300;
+}
+
+.postado {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    /* agora é um elemento de bloco */
+    display: block;
+}
+
+p {
+    padding: 10px 0;
+    /* agora é um elemento de bloco */
+    display: block;
+    font-size: 0.9em;
+}
+
+/* Menu lateral */
+
+.menu-lateral { 
+    float:right;
+    width: 260px; 
+   /* background-color: #f8f9fa; */
+    background-color: #f8f9fa;
+}
+
+.postagem-recente {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.categoria {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.titulo{
+    background-color: #DEDADE;
+    color: #66636B;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.leia-mais a{
+    padding-bottom: 20px;
+    font-size: 0.8em;
+    color: #FFC300;
+    display: block;
+}
+
+.menu-lista {
+    padding-top: 20px;
+}
+
+.menu-lista li {
+    list-style-type: none;
+}
+
+.menu-lista li a{
+    color:#FFC300;
+}
+
+/* Rodapé */
+#rodape {
+    background-color: #ccc;
+    text-align: center;
+    clear:both;
+    padding: 15px;
+}

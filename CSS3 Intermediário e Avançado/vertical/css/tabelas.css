@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#sobre { 
+width: 210px;
+float:left;
+padding-top:20px;
+padding-bottom:20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+}
+
+ul a{
+    width: 180px;
+    height: 40px;
+    display: block;
+    color:midnightblue;
+    text-decoration: none;
+    /*joga o texto para fora*/
+    text-indent: 40px;
+    /*joga o texto para o mesmo tamanho da linha*/
+    line-height: 40px;
+    background: #f7b600 url(/vertical/img/menu.png) no-repeat left bottom;
+}
+
+ul a:hover, .selecionado a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#tabela #navegacao .tabela a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+
+/*tabela*/
+
+.tabelas table, .tabelas{
+    margin: 0 auto;
+    width: 600px;
+    border-collapse: separate;
+    /*border-collapse: collapse;*/
+}
+
+.tabelas h2 {
+    text-align: center;
+    margin: 30px;
+    text-transform:uppercase;
+    letter-spacing: .2em;
+    background: #cecece;
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    text-transform:uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-weight: 90%;
+    letter-spacing: 0.3em;
+}
+
+tr.alterna {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: khaki;
+}
+
+.numero {
+    text-align: right
+}

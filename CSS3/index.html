@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>CSS</title>
+    <style type="text/css">
+        /* Seletores */
+        h1 {
+            color: darkviolet;
+        }
+
+        h2 {
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            text-decoration: underline;
+            margin-top: 80px;
+            background: darkslateblue;
+        }
+
+        h3 {
+            color: blueviolet;
+        }
+
+        #cabecalho {
+            background: chartreuse;
+
+        }
+
+        #cabecalho ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0 auto;
+            width: 200px;
+        }
+
+        #cabecalho ul li {
+            padding: 20px;
+            height: 50px;
+
+        }
+
+        #conteudo-principal {
+            display: flex;
+
+        }
+
+        .coluna {
+            background: hotpink;
+            padding: 20px;
+            margin: 0 auto;
+            width: 200px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Estilo CSS (cascading style sheets)</h1>
+
+    <h1>Formatação de Links</h1>
+    <a href="https://www.globo.com/">Acesso 1 </a>|
+    <a href="https://www.atribuna.com.br/">Acesso 2 </a>|
+    <a href="https://www.atribuna.com.br/esportes/santosfc">Acesso 3 </a>|
+    <a href="">Acesso 4 </a>
+
+    <!-- Inline CSS-->
+    <h2>Inline CSS</h2>
+    <p style=" color: green; ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id sem gravida, consectetur augue ut, molestie
+        lorem. Donec condimentum erat at sapien volutpat malesuada. Proin id metus sed elit malesuada viverra sit amet a
+        velit.
+    </p>
+
+    <p style=" color:darkcyan; ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id sem gravida, consectetur augue ut, molestie
+        lorem. Donec condimentum erat at sapien volutpat malesuada. Proin id metus sed elit malesuada viverra sit amet a
+        velit.
+    </p>
+
+    <!-- Classes e IDs-->
+    <div>
+        <h2>IDs</h2>
+        <div id="cabecalho">
+            <ul>
+                <li>Home</li>
+                <li>Quem somos</li>
+                <li>Contato</li>
+            </ul>
+        </div>
+        <h2>Classes</h2>
+        <div id="conteudo-principal">
+            <div class="coluna">
+                Coluna 1
+            </div>
+
+            <div class="coluna">
+                Coluna 2
+            </div>
+
+            <div class="coluna">
+                Coluna 3
+            </div>
+        </div>
+    </div>
+
+    <!-- Div e Span -->
+    <h2>Div</h2>
+    <div class="exemplo1">
+        Elemento
+    </div>
+    <div>
+        em bloco
+    </div>
+    <h2>Span</h2>
+    <span class="exemplo2">
+        Elemento em
+    </span>
+    <span>
+        linha
+    </span>
+
+    <!-- Bordas - https://www.w3schools.com/css/css_border.asp -->
+    <h2>Bordas</h2>
+    <div class="bordas">
+        <div>Piscina</div>
+    </div>
+    <br>
+    <div class="bordas-2">
+        <div>Circo</div>
+    </div>
+    <br>
+    <div class="bordas-3">
+        <div>Mar</div>
+    </div>
+
+    <!-- https://html-color-codes.info/Codigos-de-Cores-HTML/ -->
+    <!-- https://www.w3schools.com/css/css_font.asp -->
+    <!-- https://www.w3schools.com/cssref/css_websafe_fonts.asp -->
+    <!-- Estilo de textos - https://www.w3schools.com/cssref/pr_font_font.asp -->
+    <h2>Fontes e cores</h2>
+    <div class="fonte-cores">
+        <p>Olá</p>
+    </div>
+    <div class="formatacao">
+        Formatação de texto
+    </div>
+
+    <h1>Imagem e cor de fundo</h1>
+    <!-- https://www.w3schools.com/css/css_background.asp -->
+    <p class="yoshi">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe similique, recusandae possimus
+        libero excepturi
+        qui sequi illum praesentium dolores eos officiis ullam voluptas aliquam sint fuga, quidem voluptatibus et rerum?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto quidem optio nisi molestiae velit minus
+        laborum temporibus placeat maxime, voluptas, impedit nihil voluptatum earum nesciunt reprehenderit, molestias
+        corporis quod ab? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente fugit atque ea illum omnis
+        minima, autem quos ut odit ducimus maiores corporis iste accusamus assumenda pariatur quibusdam animi excepturi
+        expedita. lorem
+        libero excepturi
+        qui sequi illum praesentium dolores eos officiis ullam voluptas aliquam sint fuga, quidem voluptatibus et rerum?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto quidem optio nisi molestiae velit minus
+        laborum temporibus placeat maxime, voluptas, impedit nihil voluptatum earum nesciunt reprehenderit, molestias
+        corporis quod ab? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente fugit atque ea illum omnis
+        minima, autem quos ut odit ducimus maiores corporis iste accusamus assumenda pariatur quibusdam animi excepturi
+        expedita. lorem
+        libero excepturi
+        qui sequi illum praesentium dolores eos officiis ullam voluptas aliquam sint fuga, quidem voluptatibus et rerum?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto quidem optio nisi molestiae velit minus
+        laborum temporibus placeat maxime, voluptas, impedit nihil voluptatum earum nesciunt reprehenderit, molestias
+        corporis quod ab? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente fugit atque ea illum omnis
+        minima, autem quos ut odit ducimus maiores corporis iste accusamus assumenda pariatur quibusdam animi excepturi
+        expedita. lorem
+        libero excepturi
+        qui sequi illum praesentium dolores eos officiis ullam voluptas aliquam sint fuga, quidem voluptatibus et rerum?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto quidem optio nisi molestiae velit minus
+        laborum temporibus placeat maxime, voluptas, impedit nihil voluptatum earum nesciunt reprehenderit, molestias
+        corporis quod ab? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente fugit atque ea illum omnis
+        minima, autem quos ut odit ducimus maiores corporis iste accusamus assumenda pariatur quibusdam animi excepturi
+        expedita. lorem
+    </p>
+    <hr>
+    <h1>Modelo de caixa - Elementos flutuantes</h1>
+    <div class="caixa1">
+        Conteudo
+    </div>
+    <div class="caixa2">
+        Conteudo 2
+    </div>
+    <div class="caixa3">
+        Conteudo 3
+    </div>
+    <div class="box">
+        Conteudo
+    </div>
+    <div class="box">
+        Conteudo 2
+    </div>
+    <div class="box">
+        Conteudo 3
+    </div>
+    <div class="principal">
+        <div class="box1">
+            Conteudo
+        </div>
+        <div class="box1">
+            Conteudo 2
+        </div>
+        <div class="box1">
+            Conteudo 3
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <hr>
+
+    <div id="elemento">
+        <h1>Elementos fluentes</h1>
+        <!-- Começo notícias -->
+        <div class="noticias">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta officia adipisci suscipit earum,
+                voluptatem
+                quaerat sequi tempora! Vel nam quam cumque laborum pariatur esse assumenda magnam sed aspernatur. Alias,
+                modi.</p>
+
+            <a href="">Veja mais</a>
+        </div>
+        <div class="noticias">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta officia adipisci suscipit earum,
+                voluptatem
+                quaerat sequi tempora! Vel nam quam cumque laborum pariatur esse assumenda magnam sed aspernatur. Alias,
+                modi.</p>
+
+            <a href="">Veja mais</a>
+        </div>
+        <div class="noticias">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta officia adipisci suscipit earum,
+                voluptatem
+                quaerat sequi tempora! Vel nam quam cumque laborum pariatur esse assumenda magnam sed aspernatur. Alias,
+                modi.</p>
+
+            <a href="">Veja mais</a>
+        </div>
+
+        <!-- Fim notícias -->
+
+        <!-- Começo galeria -->
+        <!-- limpa o fluxo flutuante -->
+        <div class="clear">
+
+        </div>
+        <div id="galeria">
+
+            <div class="imagem-galeria">
+                <img src="imagens/imagem1.png">
+            </div>
+            <div class="imagem-galeria">
+                <img src="imagens/imagem2.png" alt="">
+            </div>
+            <div class="imagem-galeria">
+                <img src="imagens/imagem3.png" alt="">
+            </div>
+            <div class="imagem-galeria">
+                <img src="imagens/imagem4.png" alt="">
+            </div>
+            <div class="imagem-galeria">
+                <img src="imagens/imagem5.png" alt="">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- limpa o fluxo flutuante -->
+    <div class="clear"></div>
+
+    <!-- Elementos inline, block e inline-block -->
+    <h3>Elemento block</h3>
+    <div class="bloco-1">
+        Bloco 1
+    </div>
+    <div class="bloco-1">
+        Bloco 2
+    </div>
+    <div class="bloco-1">
+        Bloco 3
+    </div>
+    <h3>Elemento inline</h3>
+    <div class="bloco-2">
+        Bloco 1
+    </div>
+    <div class="bloco-2">
+        Bloco 2
+    </div>
+    <div class="bloco-2">
+        Bloco 3
+    </div>
+    <h3>Elemento inline-block</h3>
+    <div class="bloco-3">
+        Bloco 1
+    </div>
+    <div class="bloco-3">
+        Bloco 2
+    </div>
+    <div class="bloco-3">
+        Bloco 3
+    </div>
+    <!-- Fim blocos -->
+
+    <!-- Começo Posicionamento -->
+    <!-- position: absolute é alinhado ao elemento que tenha uma posição, position: relative / top, right, left, bottom
+    position: static é a posição padrão -->
+    <div id="posicionamento">
+        <div class="estatico">
+            <h1>Posicionamento</h1>
+            <p class="relative">Parágrafo Relative - Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque veritatis nihil
+                corrupti impedit
+                consequuntur quasi sequi, vero ipsam eligendi cum ratione explicabo sint optio voluptas pariatur! Aut,
+                blanditiis ex.</p>
+            <p class="absolute"> Parágrafo Absolute - Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                eaque veritatis nihil
+                corrupti impedit
+                consequuntur quasi sequi, vero ipsam eligendi cum ratione explicabo sint optio voluptas pariatur! Aut,
+                blanditiis ex.</p>
+            <p class="fixo"> Parágrafo Fixo - Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque
+                veritatis nihil
+                corrupti impedit
+                consequuntur quasi sequi, vero ipsam eligendi cum ratione explicabo sint optio voluptas pariatur! Aut,
+                blanditiis ex.</p>
+        </div>
+    </div>
+    <div class="sobreposicao">
+        <p class="p1"> Z-Index - Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque veritatis nihil corrupti
+            impedit
+            consequuntur quasi sequi, vero ipsam eligendi cum ratione explicabo sint optio voluptas pariatur! Aut,
+            blanditiis ex.</p>
+        <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque veritatis nihil
+            corrupti impedit
+            consequuntur quasi sequi, vero ipsam eligendi cum ratione explicabo sint optio voluptas pariatur! Aut,
+            blanditiis ex.</p>
+        <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque veritatis nihil
+            corrupti impedit
+            consequuntur quasi sequi, vero ipsam eligendi cum ratione explicabo sint optio voluptas pariatur! Aut,
+            blanditiis ex.</p>
+    </div>
+
+
+</body>
+
+</html>

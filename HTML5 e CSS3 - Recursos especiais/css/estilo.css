@@ -1,0 +1,220 @@
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#caixa-2 {
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 10px;
+    -webkit-border-radius: 20px 90px;
+    -moz-border-radius: 20px 90px;
+    border-radius: 20px 90px;
+    margin: 20px;
+}
+
+#caixa-3 {
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 50px;
+    -webkit-border-radius: 20px 90px;
+    -moz-border-radius: 20px 90px;
+    border-radius: 20px 90px;
+    margin: 20px;
+}
+
+/*box-sizing*/
+
+#caixa-4 {
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 20px 90px;
+    -moz-border-radius: 20px 90px;
+    border-radius: 20px 90px;
+    margin: 20px;
+}
+
+#caixa-5 {
+    width: 300px;
+    height: 300px;
+    background: url("/imagens/perfil.jpg");
+    margin: 20px;
+}
+
+#caixa-5 h1 {
+    background: rgb(255, 255, 255, 0.8);
+}
+
+#caixa-6 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(80deg,white, green, yellow);
+    margin: 20px;
+}
+
+#caixa-6 h1 {
+    background: rgb(255, 255, 255, 0.8);
+}
+
+#caixa-7 {
+    width: 300px;
+    height: 300px;
+    /* to left, to right, to bottom, to top */
+    background: linear-gradient(to left, red, green);
+    margin: 20px;
+}
+
+#caixa-7 h1 {
+    background: rgb(255, 255, 255, 0.8);
+}
+
+#caixa-8 {
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(white, green, pink, yellow);
+    margin: 20px;
+}
+
+#caixa-9 {
+    width: 300px;
+    height: 300px;
+    /* to left, to right, to bottom, to top */
+    background: linear-gradient(red, yellow, green);
+    margin: 20px;
+}
+
+#caixa-10 {
+    width: 300px;
+    height: 300px;
+    /* to left, to right, to bottom, to top */
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    margin: 20px;
+}
+
+#caixa-11 {
+    width: 300px;
+    height: 300px;
+    /* to left, to right, to bottom, to top */
+    background: #b9c941;
+    margin: 20px;
+}
+
+#caixa-11 h1{
+    color:azure;
+    /* primeiro valor - horizontal - segundo valor - vertical */
+    text-shadow: 20px -20px black;
+}
+
+#caixa-12 {
+    width: 300px;
+    height: 300px;
+    /* to left, to right, to bottom, to top */
+    background: #b9c941;
+    margin: 20px;
+}
+
+#caixa-12 h1{
+    color:azure;
+    /* primeiro valor - horizontal - segundo valor - vertical */
+    text-shadow: 20px -20px 10px black;
+}
+
+#caixa-13 {
+    width: 300px;
+    height: 300px;
+    /* to left, to right, to bottom, to top */
+    background: #b9c941;
+    box-shadow: 20px 20px black;
+    margin: 20px;
+}
+
+#caixa-13 h1{
+    color:azure;
+    /* primeiro valor - horizontal - segundo valor - vertical */
+    text-shadow: 20px -20px 10px black;
+}
+
+/*Animações*/
+
+@-webkit-keyframes animacao-caixa {
+    from{
+        background: greenyellow;
+    }
+    to{
+        background: orange;
+    }
+}
+
+@-moz-keyframes animacao-caixa {
+    from{
+        background: greenyellow;
+    }
+    to{
+        background: orange;
+    }
+}
+
+@-o-keyframes animacao-caixa {
+    from{
+        background: greenyellow;
+    }
+    to{
+        background: orange;
+    }
+}
+
+@keyframes animacao-caixa {
+    from{
+        background: greenyellow;
+        border-radius: 0px;
+    }
+    to{
+        background: orange;
+        border-radius: 300px;
+    }
+}
+
+#caixa-14 {
+    width: 300px;
+    height: 300px;
+    background: greenyellow;
+    animation-name: animacao-caixa;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    margin: 20px;
+}
+
+
+/*Transições*/
+
+#caixa-15 {
+    width: 300px;
+    background: greenyellow;
+}
+
+#caixa-15:hover {
+    width: 300px;
+    background: orangered;
+    -webkit-transition:  background 3s;
+    -moz-transition: background 3s;
+    -o-transition: background 3s;
+    transition: background 3s ;
+}
+
+
+.lado-lado {
+    display: flex;
+    margin: 10px;
+}
